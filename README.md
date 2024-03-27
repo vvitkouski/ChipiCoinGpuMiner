@@ -1,9 +1,11 @@
 # README
 
 [Сообщество](https://t.me/blckbazars)
+
 [Сообщество жетона](https://t.me/chipicoinru)
 
 Майнер для жетона ChipiCoin. Данный майнер является форком майнера для жетона GRAM. 
+
 ДЛя работы требуется GPU.
 - Создайте `config.txt`
 - Напишите мнемоник в файле `config.txt` в формате
@@ -31,9 +33,11 @@ TONAPI_TOKEN=
 # EN
 
 [Community](https://t.me/blckbazars)
+
 [Jetton community](https://t.me/chipicoin)
 
 Miner for ChipiCoin jetton. This miner is a fork of the GRAM jetton miner.
+
 Needed GPU.
 
 - Create `config.txt`
