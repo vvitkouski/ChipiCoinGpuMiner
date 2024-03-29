@@ -58,6 +58,14 @@ if (args['--givers']) {
             givers = givers_1.givers1000;
             console.log('Using givers 1 000');
             break;
+        case 10000:
+                givers = givers_1.givers10000;
+                console.log('Using givers 10,000');
+                break;
+        case 100000:
+            givers = givers_1.givers100000;
+            console.log('Using givers 100,000');
+            break;
     }
 }
 else {
