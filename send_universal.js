@@ -349,6 +349,9 @@ function testMiner() {
             const output = (0, child_process_1.execSync)(command, { encoding: 'utf-8', stdio: "pipe" }); // the default is 'buffer'
         }
         catch (e) {
+			console.log(e.name);
+			console.log(e.message);
+			console.log(e.stack);
         }
         let mined = undefined;
         try {
@@ -356,9 +359,12 @@ function testMiner() {
             fs_1.default.rmSync(path);
         }
         catch (e) {
-            //
+            console.log(e.name);
+			console.log(e.message);
+			console.log(e.stack);
         }
         if (!mined) {
+			console.log(command);
             return false;
         }
         return true;
